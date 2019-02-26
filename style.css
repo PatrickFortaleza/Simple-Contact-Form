@@ -1,0 +1,46 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #404040;
+}
+
+.contactform{
+    width: 35%;
+    margin: auto;
+    padding: 30px;
+    border: solid 2px #303030;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+    min-width: 400px;
+}
+
+label{
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+
+input[type='email'], input[type='text']
+{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+textarea{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+
+input[type='submit']{
+    float: right;
+    margin-top: 15px;
+    font-size: 1.2em;
+}
